@@ -16,7 +16,7 @@ import { NotificationsModule } from './notifications/notifications.module';
       synchronize: true,
     }),
     NotificationsModule,
-  ],
+  ],f
   controllers: [AppController],
   providers: [AppService],
 })
