@@ -7,8 +7,7 @@ export class NotificationsController {
 
     @Post()
     async sendNotification(@Body() body: { message: string; type:string }) {
-        return
-    this.notificationService.sendNotification(body.message, body.type);
+        return this.notificationService.sendNotification(body.message, body.type);
     }
 
     @Get()
