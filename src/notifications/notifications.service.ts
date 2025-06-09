@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Notification } from './notification.entity';
+import * as bcrypt from 'bcrypt';
 
 //Importamos las clases del patron Strategy
 import { NotificationContext } from './notification-context';
